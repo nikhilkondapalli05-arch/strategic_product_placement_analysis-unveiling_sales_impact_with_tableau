@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Placement Analysis - Sales Impact</title>
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #1f3c88;
+            padding: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            color: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 26px;
+            letter-spacing: 0.5px;
+        }
+
+        .navbar img {
+            height: 40px;
+            width: auto;
+        }
+
+        /* CONTENT SECTION */
+        .dashboard-container {
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* TABLEAU WRAPPER */
+        .tableauWrapper {
+            width: 95%;
+            max-width: 1400px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        <h1>Product Placement Analysis - Sales Impact</h1>
+    </div>
+
+    <!-- DASHBOARD SECTION -->
+    <div class="dashboard-container">
+        <div class="tableauWrapper">
+
+            <div class='tableauPlaceholder' id='viz1771355126366' style='position: relative'>
+
+                <noscript>
+                    <a href='#'>
+                        <img alt='Dashboard'
+                             src='https://public.tableau.com/static/images/Pr/ProductPlacementAnalysis-SalesImpact/Dashboard-ProductPlacementAnalysis-SalesImpact/1.png'
+                             style='border: none; width:100%;' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https://public.tableau.com/' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='path' value='views/ProductPlacementAnalysis-SalesImpact/Dashboard-ProductPlacementAnalysis-SalesImpact?:language=en-US&:embed=true' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                </object>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- TABLEAU SCRIPT -->
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1771355126366');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+
+        vizElement.style.width = '100%';
+        vizElement.style.height = '900px';
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+</body>
+</html>
