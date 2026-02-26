@@ -41,22 +41,7 @@ The purpose of this project is to:
 
 🔗 Tableau Public Story: **[https://public.tableau.com/views/ProductPlacementAnalysis-SalesImpact/Story-ProductPlacementAnalysis-SalesImpactStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]**
 
-📦 strategic_product_placement_analysis-unveiling_sales_impact_with_tableau
-│
-├── 📂 static/ # CSS, JS, images used in web application
-├── 📂 templates/ # HTML templates
-│ └── index.html
-├── 📂 Dataset/ # Source dataset used for analysis
-│ └── [dataset file]
-├── 📂 PDFs/ # Supporting documentation
-│ ├── Preprocessing & Business Questions.pdf
-│ └── Dashboard_Story_Webpage_Screenshots.pdf
-├── app.py # Flask web server code
-├── requirements.txt # Python dependencies
-├── README.md # Project overview (this file)
-├── Final Report Template.pdf # Final project report template
-├── .gitignore
-└── LICENSE
+
 
 
 # 📈 Tableau Visualization
@@ -72,8 +57,12 @@ This project includes:
 
 Both Dashboard and Story are published on **Tableau Public** and embedded in the Flask web application.
 
+
+
 🔗 **Tableau Public Dashboard Link **  
 https://public.tableau.com/views/ProductPlacementAnalysis-SalesImpact/Dashboard-ProductPlacementAnalysis-SalesImpact?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+
+
 
 🔗 **Tableau Public Story Link **  
 https://public.tableau.com/views/ProductPlacementAnalysis-SalesImpact/Story-ProductPlacementAnalysis-SalesImpactStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
@@ -101,41 +90,57 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
+
+
 📌 How to Run Locally
 
+
+
 Clone the repository:
+
 
 </> Bash
 git clone https://github.com/YOUR_USERNAME/strategic_product_placement_analysis-unveiling_sales_impact_with_tableau.git
 
 
+
+
 Navigate to the project directory:
+
 
 </> Bash
 cd strategic_product_placement_analysis-unveiling_sales_impact_with_tableau
 
 
+
+
 Install dependencies:
+
 
 </> Bash
 pip install -r requirements.txt
 
+
+
 Run the Flask app:
+
 
 </> Bash
 python app.py
 
 
+
 Open browser and go to:
+
 
 </> Code
 http://localhost:5000
 
 
+
 Having any Queries :
 
 📄 Documentation & Supporting Files
-
 
 
 The PDFs folder includes:
