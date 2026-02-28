@@ -32,6 +32,9 @@ This repository contains a complete end-to-end analytics project that examines p
 
 ---
 
+## Demo Video
+[Watch the demonstration video here](https://drive.google.com/file/d/1UrRa1rBkDsd6FXRDKiybGQSnTLyOyr61/preview)
+
 ## 🚀 Live Dashboard
 
 🔗 **Tableau Public Dashboard:**  
