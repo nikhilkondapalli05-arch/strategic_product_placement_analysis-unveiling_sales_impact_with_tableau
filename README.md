@@ -138,7 +138,7 @@ Includes:
 
 ## 👨‍💻 Author
 
-PARAPATLA SAI KUMAR 
+K.REDDY NIKHIL
 
 ## Email :
-parapatlasai123@gmail.com 
+nikhilkondapalli05@gmail.com
